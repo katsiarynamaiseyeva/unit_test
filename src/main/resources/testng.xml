@@ -1,0 +1,109 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Calculator" verbose="1" parallel="methods" thread-count="5">
+
+	<groups>
+		<run>
+			<exclude name="main"></exclude>
+		</run>
+	</groups>
+
+	<test name="CosDoubleCalcTest">
+		<classes>
+			<class name="testng.CosDoubleCalcTest"/>
+		</classes>
+	</test>
+
+	<test name="CtgDoubleCalcTest">
+		<classes>
+			<class name="testng.CtgDoubleCalcTest"/>
+		</classes>
+	</test>
+
+	<test name="DivDoubleCalcTest">
+		<classes>
+			<class name="testng.DivDoubleCalcTest"/>
+		</classes>
+	</test>
+
+	<test name="DivLongCalcTest">
+		<classes>
+			<class name="testng.DivLongCalcTest"/>
+		</classes>
+	</test>
+
+	<test name="IsNegativeCalcTest">
+		<classes>
+			<class name="testng.IsNegativeCalcTest"/>
+		</classes>
+	</test>
+
+	<test name="IsPositiveCalcTest">
+		<classes>
+			<class name="testng.IsPositiveCalcTest"/>
+		</classes>
+	</test>
+
+	<test name="MultDoubleCalcTest">
+		<classes>
+			<class name="testng.MultDoubleCalcTest"/>
+		</classes>
+	</test>
+
+	<test name="MultLongCalcTest">
+		<classes>
+			<class name="testng.MultLongCalcTest"/>
+		</classes>
+	</test>
+
+	<test name="PowDoubleCalcTest">
+		<classes>
+			<class name="testng.PowDoubleCalcTest"/>
+		</classes>
+	</test>
+
+	<test name="SinDoubleCalcTest">
+		<classes>
+			<class name="testng.SinDoubleCalcTest"/>
+		</classes>
+	</test>
+
+	<test name="SqtrDoubleCalcTest">
+		<classes>
+			<class name="testng.SqrtDoubleCalcTest"/>
+		</classes>
+	</test>
+
+	<test name="SubDoubleCalcTest">
+		<classes>
+			<class name="testng.SubDoubleCalcTest"/>
+		</classes>
+	</test>
+
+	<test name="SubLongCalcTest">
+		<classes>
+			<class name="testng.SubLongCalcTest"/>
+		</classes>
+	</test>
+
+	<test name="SumDoubleCalcTest">
+		<classes>
+			<class name="testng.SumDoubleCalcTest"/>
+		</classes>
+	</test>
+
+	<test name="SumLongCalcTest">
+		<classes>
+			<class name="testng.SumLongCalcTest"/>
+		</classes>
+	</test>
+
+	<test name="TgDoubleCalcTest">
+		<classes>
+			<class name="testng.TgDoubleCalcTest"/>
+		</classes>
+	</test>
+
+</suite>
+
+
+
